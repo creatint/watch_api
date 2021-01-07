@@ -854,11 +854,13 @@ GET
     "results": [
         {
             "id": 80690,
+            "type": "temp",
             "temp": 36.6,
             "createdAt": "2021-01-07 09:51:13"
         },
         {
             "id": 80689,
+            "type": "blood",
             "blood": [
                 138,
                 76
@@ -866,21 +868,26 @@ GET
             "createdAt": "2021-01-07 09:51:04"
         },
         {
+            "id": 80688,
+            "type": "heart",
             "heart": 93,
             "createdAt": "2021-01-07 09:51:04"
         },
         {
             "id": 80687,
+            "type": "oxygen",
             "oxygen": 90,
             "createdAt": "2021-01-07 09:51:04"
         },
         {
             "id": 80525,
+            "type": "temp",
             "temp": 37,
             "createdAt": "2021-01-07 08:51:02"
         },
         {
             "id": 80523,
+            "type": "blood",
             "blood": [
                 128,
                 70
@@ -889,20 +896,25 @@ GET
         },
         {
             "id": 80522,
+            "type": "oxygen",
             "oxygen": 94,
             "createdAt": "2021-01-07 08:50:44"
         },
         {
+            "id": 80521,
+            "type": "heart",
             "heart": 80,
             "createdAt": "2021-01-07 08:50:44"
         },
         {
             "id": 80364,
+            "type": "temp",
             "temp": 35.4,
             "createdAt": "2021-01-07 07:50:48"
         },
         {
             "id": 80362,
+            "type": "blood",
             "blood": [
                 125,
                 73
@@ -910,26 +922,32 @@ GET
             "createdAt": "2021-01-07 07:50:32"
         },
         {
+            "id": 80361,
+            "type": "heart",
             "heart": 85,
             "createdAt": "2021-01-07 07:50:32"
         },
         {
             "id": 80360,
+            "type": "oxygen",
             "oxygen": 93,
             "createdAt": "2021-01-07 07:50:32"
         },
         {
             "id": 80229,
+            "type": "temp",
             "temp": 36.3,
             "createdAt": "2021-01-07 06:50:44"
         },
         {
             "id": 80227,
+            "type": "oxygen",
             "oxygen": 92,
             "createdAt": "2021-01-07 06:50:20"
         },
         {
             "id": 80226,
+            "type": "blood",
             "blood": [
                 128,
                 70
@@ -937,16 +955,20 @@ GET
             "createdAt": "2021-01-07 06:50:20"
         },
         {
+            "id": 80224,
+            "type": "heart",
             "heart": 80,
             "createdAt": "2021-01-07 06:50:20"
         },
         {
             "id": 80223,
+            "type": "temp",
             "temp": 36.2,
             "createdAt": "2021-01-07 06:49:24"
         },
         {
             "id": 80119,
+            "type": "temp",
             "temp": 36.1,
             "createdAt": "2021-01-07 05:49:29"
         }
@@ -1395,6 +1417,10 @@ Response Body:
 - **heart** 每分钟心率
 
 心率是一个整型数字
+
+- **temp** 温度
+
+温度是一个浮点型数字
 
 
 - **oxygen** 血氧含量
