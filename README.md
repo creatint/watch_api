@@ -839,6 +839,7 @@ GET
 |length|int|否|每页数据数量，默认100|
 |page|int|否|页码，默认1|
 |duration|int|否|多少时间以内的健康数据，默认5，单位：小时|
+|type|string|否|类型，为空则获取全部类型，心跳：heart，血氧：oxygen，温度：temp，血压：blood|
 
 **示例:**
 
